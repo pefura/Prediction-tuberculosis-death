@@ -1,12 +1,18 @@
-import streamlit as st
-import pandas as pd
-from sklearn import datasets
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.linear_model import SGDClassifier
-import matplotlib.pyplot as plt
-from sklearn.pipeline import make_pipeline
-from sklearn.compose import make_column_selector, make_column_transformer
-from sklearn.preprocessing import StandardScaler, RobustScaler, OneHotEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.impute import SimpleImputer
+pandas 
+sklearn.ensemble 
+RandomForestClassifier
+sklearn.linear_model
+LogisticRegression
+SGDClassifier
+matplotlib.pyplot
+sklearn.pipeline 
+make_pipeline
+sklearn.compose
+make_column_selector
+make_column_transformer
+sklearn.preprocessing 
+StandardScaler, RobustScaler, OneHotEncoder
+sklearn.model_selection 
+train_test_split
+sklearn.impute 
+SimpleImputer
