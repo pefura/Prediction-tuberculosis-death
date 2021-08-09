@@ -11,9 +11,6 @@ sklearn.compose
 make_column_selector
 make_column_transformer
 sklearn.preprocessing 
-StandardScaler
-RobustScaler
-OneHotEncoder
 sklearn.model_selection 
 train_test_split
 sklearn.impute 
