@@ -39,7 +39,7 @@ def user_input_features():
 
 df = user_input_features()
 
-st.subheader('User Input parameters')
+st.subheader('User Input parameters confirmation')
 st.write(df)
 
 deathTB = pd.read_csv('https://raw.githubusercontent.com/pefura/Prediction-tuberculosis-death/streamlit_deathTB/deathTB_2.csv', sep=';', header=0)
