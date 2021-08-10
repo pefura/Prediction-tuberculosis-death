@@ -20,7 +20,7 @@ This app predicts the risk of **Death during tuberculosis**
 By Pefura-Yone et al. (BMC Infect Dis. doi: 10.1186/s12879-017-2309-9) 
 """)
 
-st.header('Please select patients features here)')
+st.header('User Input Parameters(please select patients features here)')
 
 
 def user_input_features():
