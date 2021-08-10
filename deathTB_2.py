@@ -13,20 +13,21 @@ import seaborn as sns
 import numpy as np
 
 st.write("""
-# TB death Prediction App
-By Pefura-Yone
+# # Machine Learning TB death Prediction App
 
-This app predicts the **Death during tuberculosis** 
+This app predicts the risk of **Death during tuberculosis** 
+
+By Pefura-Yone et al. (BMC Infect Dis. doi: 10.1186/s12879-017-2309-9)** 
 """)
 
 st.sidebar.header('User Input Parameters(please select patients features here)')
 
 
 def user_input_features():
-    age = st.sidebar.slider('age', 15, 100)
-    weight = st.sidebar.slider('weight', 20, 120)
-    hiv = st.sidebar.selectbox('hiv', ('positive', 'unknown', 'negative'))
-    form = st.sidebar.selectbox('form', ('smear_positive_pulmonary', 'smear_negative_pulmonary', 'extrapulmonary'))
+    age = st.slider('age', 15, 100)
+    weight = st.slider('weight', 20, 120)
+    hiv = st.selectbox('hiv', ('positive', 'unknown', 'negative'))
+    form = st.selectbox('form', ('smear_positive_pulmonary', 'smear_negative_pulmonary', 'extrapulmonary'))
     data = {'age': age,
             'weight': weight,
             'form': form,
