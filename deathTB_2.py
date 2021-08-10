@@ -13,7 +13,7 @@ import seaborn as sns
 import numpy as np
 
 st.write("""
-# # Machine Learning TB death Prediction App
+# Machine Learning TB death Prediction App
 
 This app predicts the risk of **Death during tuberculosis** 
 
